@@ -12,6 +12,12 @@ gem 'turbolinks', '~> 5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'dotenv-rails'
+gem 'awesome_print', require: 'ap'
+
+gem 'omniauth'
+gem 'omniauth-eveonline', path: '~/opensource/omniauth-eveonline'
+
 group :development, :test do
 end
 
